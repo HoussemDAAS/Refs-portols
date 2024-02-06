@@ -9,8 +9,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(#186a5e, #053339);
-  color: #e1eeeb;
+  background:#edf8fd;
+  color: #03191d;
   min-height: 100vh;
 }
 
@@ -18,7 +18,7 @@ body {
   max-width: 60rem;
   margin: 2rem auto;
   padding: 2rem;
-  background: radial-gradient(#0b201d, #021619);
+  background: #edf8fd;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
@@ -27,7 +27,7 @@ h1 {
   font-family: 'Handjet', monospace;
   text-align: center;
   text-transform: uppercase;
-  color: #c1e2dd;
+  color: #03191d;
   text-shadow: 0 0 4px rgba(35, 34, 34, 0.4);
   font-size: 3.5rem;
   margin: 0;
@@ -42,7 +42,7 @@ header p {
   font-size: 1.2rem;
   margin: 0;
   text-align: center;
-  color: #c6f4f2;
+  color: #03191d;
 }
 
 #player {
@@ -50,7 +50,7 @@ header p {
 }
 
 #player h2 {
-  color: #54a399;
+  color: #ef7997;
 }
 
 #player p {
@@ -61,8 +61,8 @@ header p {
 
 #player input {
   font: inherit;
-  border: 1px solid #54a399;
-  background-color: #192f2b;
+  border: 1px solid #ef7997;
+  background-color: #ef7997;
   border-radius: 4px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -72,17 +72,17 @@ header p {
 
 #player button {
   cursor: pointer;
-  background-color: #54a399;
-  border: 1px solid #54a399;
+  background-color: #ef7997;
+  border: 1px solid #ef7997;
   padding: 0.4rem 1rem;
-  color: #061e1a;
+  color: #03191d;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
 #player button:hover {
-  background-color: #3c8379;
-  border-color: #3c8379;
+  background-color: #eaab4d;
+  border-color: #eaab4d;
 }
 
 #challenges {
@@ -101,7 +101,7 @@ header p {
   justify-content: center;
   padding: 2rem;
   margin: 2rem auto;
-  background: linear-gradient(#4df8df, #4df0f8);
+  background: linear-gradient(#4df8de17, #4df0f8);
   color: #221c18;
   box-shadow: 0 2px 8px rgba(35, 34, 34, 0.6);
   border-radius: 6px;
@@ -112,14 +112,14 @@ header p {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
-  background: #12352f;
+  background: #1db6e4;
   color: #edfcfa;
   font-size: 1.2rem;
   cursor: pointer;
 }
 
 .challenge button:hover {
-  background: #051715;
+  background: #eaab4d;
 }
 
 .challenge h2 {
